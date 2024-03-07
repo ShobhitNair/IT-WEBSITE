@@ -148,16 +148,18 @@ body{
 }
 
 .home{
+
     min-height: 100vh;
     width: 100vw;
-    background-image: url(../images/img1.jpg);
+    background-color: rgb(3, 18, 57);
     background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: auto;
     flex-flow: column;
     text-align: center;
-    padding: 0 1rem;
+
     position: relative;
     overflow: hidden !important;
 }
